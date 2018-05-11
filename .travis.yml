@@ -1,12 +1,4 @@
-sudo: false
-
 language: go
 
-services:
-  - docker
-
-before_install:
-  - docker build -t test-travis .
-
-script:
-  - pwd
+go:
+  - "1.10"
