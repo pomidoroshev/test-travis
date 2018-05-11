@@ -1,4 +1,4 @@
-sudo: required
+sudo: false
 
 language: go
 
@@ -9,4 +9,4 @@ before_install:
   - docker build -t test-travis .
 
 script:
-  - ./main
+  - pwd
